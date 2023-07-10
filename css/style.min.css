@@ -8,9 +8,15 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar{
+  /* display: none; */
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  /* -ms-overflow-style: none;  IE and Edge */
+  /* scrollbar-width: none;  Firefox */
 }
 
 h1,
@@ -125,7 +131,7 @@ section {
   border-radius: 0;
   margin-bottom: 0;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .jumbotron.sub {
   min-height: 30vh;
@@ -265,7 +271,8 @@ section {
 =            FORM RECTANGLE ETC            =
 ==========================================*/
 .rectangle-1 {
-  width: 2000px;
+  width: 110vw;
+  min-width: 2000px;
   height: 400px;
   background: #8e2de2;
   background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
@@ -278,7 +285,8 @@ section {
 }
 
 .rectangle-2 {
-  width: 2000px;
+  width: 110vw;
+  min-width: 2500px;
   height: 400px;
   background: #8e2de2;
   background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
