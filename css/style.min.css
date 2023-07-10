@@ -127,6 +127,9 @@ section {
   overflow: hidden;
   min-height: 100vh;
 }
+.jumbotron.sub {
+  min-height: 30vh;
+}
 @media (max-width: 767px) and (orientation: landscape) {
   .jumbotron {
     min-height: 500px;
@@ -191,7 +194,7 @@ section {
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #ebf4f5, #b5c6e0);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: brightness(90%);
   opacity: 0.8;
