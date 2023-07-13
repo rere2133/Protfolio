@@ -791,6 +791,19 @@ section {
 .skill-item .text-muted {
   color: #939393;
 }
+.skill-tag-1,.skill-tag-2{
+  padding: 6px 12px;
+  border: 2px solid #2c65f4;
+  color: #2c65f4;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.skill-tag-2{
+  border-color: #03c6fc;
+  color: #03c6fc;
+
+}
 
 .progress-bar,
 .progress {
@@ -926,6 +939,8 @@ section {
 }
 
 /*=====  End of CLIENT  ======*/
+
+
 /*==================================
 =            RESPONSIVE            =
 ==================================*/

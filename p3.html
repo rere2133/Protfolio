@@ -47,12 +47,42 @@
                 <h4 class="font-weight-bolder mb-0 ">Reckie</h4>
             </a>
             
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header"
+                aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-menu"></span>
+            </button> -->
+            <!-- <div class="collapse navbar-collapse" id="navbar-nav-header">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="side-search-open" class="nav-link" href="#">
+                            <span class="lnr lnr-magnifier"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item only-desktop">
+                        <a class="nav-link" id="side-nav-open" href="#">
+                            <span class="lnr lnr-menu"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div> -->
         </div>
     </nav>
 
     <section class="jumbotron jumbotron-single sub d-flex align-items-center">
         <div class="container text-center">
-            <h1 class="display-2 mb-4">Super Handy</h1>
+            <h1 class="display-2 mb-4">NFT Ticket</h1>
         </div>
         <div class="rectangle-1"></div>
         <div class="rectangle-2"></div>
@@ -83,49 +113,31 @@
                     <div class="col-md-12">
                         <div class="row align-items-center">
 
-                            <div class="col-md-4 offset-md-2 col-sm-6 mr-md-4" data-aos="flip-left">
-                                <img class="my-5 img_shadow" src="img/sp_home.png" alt="">
+                            <div class="col-md-4 offset-md-2 col-sm-6 mr-4" data-aos="flip-left">
+                                <img class="my-5 img_shadow" src="img/p3/NFT收藏.png" alt="">
                             </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
 
                             <div class="col-md-4 offset-md-right-2 col-sm-6" data-aos="fade-left">
-                                <h4 class="mb-4">超人幫手 Super Handy<br />
+                                <h4 class="mb-4">NFT Ticket<br />
                                 </h4>
                                 <h6>
-                                    即時接案平台
+                                    NFT收藏 & 活動入場網站
                                 </h6>
-                                <div class="py-3">
-                                    <span class="badge skill-tag-1 img_shadow">Nuxt3</span>
-                                    <span class="badge skill-tag-1 img_shadow">Vuetify</span>
-                                    <span class="badge skill-tag-1 img_shadow">TailwindCSS</span>
-                                    <span class="badge skill-tag-1 img_shadow">Pinia</span>
-                                    <span class="badge skill-tag-1 img_shadow">Leaflet</span>
-                                    <span class="badge skill-tag-1 img_shadow">LINE Pay</span>
-                                    <br/>
-                                    <span class="badge skill-tag-2 img_shadow">Node JS</span>
-                                    <span class="badge skill-tag-2 img_shadow">JWT</span>
-                                    <span class="badge skill-tag-2 img_shadow">Mongo DB</span>
-                                    <span class="badge skill-tag-2 img_shadow">Google Oauth</span>
-                                    
-                                </div>
-                                
                                 <p>An on-demand freelance platform that enables real-time task assignments. Users
                                     can
                                     search for tasks through a task list or map mode and engage in matchmaking. It
                                     offers opportunities to earn extra income and achieve self-fulfillment in daily
                                     life.</p>
-                                    
-                                <br/>
-                                <a href="https://superhandy-frontend-fork.herokuapp.com/"
+                                <span class="badge skill-tag-1 img_shadow">React</span>
+                                <span class="badge skill-tag-1 img_shadow">Redux</span>
+                                <span class="badge skill-tag-1 img_shadow">Ionic</span>
+                                <span class="badge skill-tag-1 img_shadow">SCSS</span>
+                                <span class="badge skill-tag-1 img_shadow">i18n</span>
+                                <span class="badge skill-tag-1 img_shadow">web3</span>
+                                <!-- <a href="https://superhandy-frontend-fork.herokuapp.com/"
                                     class="btn btn-primary btn-shadow mr-2" target="__blank"><i
-                                        class='uil uil-file-alt'></i>Live Demo</a>
-                                <!-- <div class="progress mb-3">
-                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
-                                        aria-valuemin="0" aria-valuemax="100">HTML5 95%</div>
-                                </div> -->
-                                <!-- <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                        aria-valuemin="0" aria-valuemax="100">CSS3 90%</div>
-                                </div> -->
+                                        class='uil uil-file-alt'></i>Live Demo</a> -->
+                                
                             </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
 
                         </div><!--/ .featurettes-item -->
@@ -146,8 +158,8 @@
                 <!-- Btn Filter -->
                 <div class="filter-button-group btn-filter d-flex justify-content-center">
                     <a tabindex="0" class="is-checked" data-filter="*">Show All</a>
-                    <a tabindex="0" data-filter=".homePage">HomePage</a>
-                    <a tabindex="0" data-filter=".tasks">Tasks</a>
+                    <a tabindex="0" data-filter=".nft">NFT</a>
+                    <a tabindex="0" data-filter=".activities">Activities</a>
 
                     <a tabindex="0" data-filter=".member">Member</a>
                 </div>
@@ -156,164 +168,157 @@
                 <div class="grid-portfolio">
                     <div class="grid-sizer"></div>
                     <div class="gutter-sizer"></div>
-                    <!-- Portfolio Item -->
-                    <div class="grid-item homePage">
+
+                    <div class="grid-item nft grid-item-height">
                         <div class="grid-item-wrapper">
-                            <img src="img/p1/首頁.png" alt="portfolio-img" class="portfolio-item">
+                            <img src="img/p3/NFT收藏.png" alt="portfolio-img" class="portfolio-item">
                             <div class="grid-info">
                                 <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/首頁.png" title="首頁">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/NFT收藏.png" title="NFT收藏">
                                         <span class="lnr lnr-move"></span>
                                     </a>
 
                                 </div>
                                 <div class="grid-title">
-                                    <h4>首頁</h4>
+                                    <h4>NFT收藏</h4>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                    <!-- End of Portfolio Item -->
-                    <!-- Portfolio Item -->
-                    <div class="grid-item tasks grid-item-height">
+                    <div class="grid-item nft">
                         <div class="grid-item-wrapper">
-                            <img src="img/p1/刊登任務.png" alt="portfolio-img" class="portfolio-item">
+                            <img src="img/p3/NFT領取.png" alt="portfolio-img" class="portfolio-item">
                             <div class="grid-info">
                                 <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/刊登任務.png" title="刊登任務">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/NFT領取.png" title="NFT領取">
                                         <span class="lnr lnr-move"></span>
                                     </a>
 
                                 </div>
                                 <div class="grid-title">
-                                    <h4>刊登任務</h4>
+                                    <h4>NFT領取</h4>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                    <div class="grid-item tasks">
+                    <div class="grid-item nft">
                         <div class="grid-item-wrapper">
-                            <img src="img/p1/找任務_列表.png" alt="portfolio-img" class="portfolio-item">
+                            <img src="img/p3/NFT收藏詳細頁.png" alt="portfolio-img" class="portfolio-item">
                             <div class="grid-info">
                                 <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/找任務_列表.png" title="找任務_列表">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/NFT收藏詳細頁.png" title="NFT收藏詳細頁">
                                         <span class="lnr lnr-move"></span>
                                     </a>
 
                                 </div>
                                 <div class="grid-title">
-                                    <h4>找任務_列表</h4>
+                                    <h4>NFT收藏詳細頁</h4>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-
-                    <div class="grid-item tasks">
+                    <div class="grid-item activities grid-item-height">
                         <div class="grid-item-wrapper">
-                            <img src="img/p1/找任務_地圖.png" alt="portfolio-img" class="portfolio-item">
+                            <img src="img/p3/活動列表.png" alt="portfolio-img" class="portfolio-item">
                             <div class="grid-info">
                                 <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/找任務_地圖.png" title="找任務_地圖">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/活動列表.png" title="活動列表">
                                         <span class="lnr lnr-move"></span>
                                     </a>
 
                                 </div>
                                 <div class="grid-title">
-                                    <h4>找任務_地圖</h4>
+                                    <h4>活動列表</h4>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-
-                    <div class="grid-item tasks">
+                    <div class="grid-item activities">
                         <div class="grid-item-wrapper">
-                            <img src="img/p1/找任務_詳情.png" alt="portfolio-img" class="portfolio-item">
+                            <img src="img/p3/活動詳細頁1.png" alt="portfolio-img" class="portfolio-item">
                             <div class="grid-info">
                                 <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/找任務_詳情.png" title="找任務_詳情">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/活動詳細頁1.png" title="活動詳細頁1">
                                         <span class="lnr lnr-move"></span>
                                     </a>
 
                                 </div>
                                 <div class="grid-title">
-                                    <h4>找任務_詳情</h4>
+                                    <h4>活動詳細頁1</h4>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                    <!-- End of Portfolio Item -->
-                    <!-- Portfolio Item -->
 
-                    <!-- End of Portfolio Item -->
-                    <!-- Portfolio Item -->
+                    <div class="grid-item activities">
+                        <div class="grid-item-wrapper">
+                            <img src="img/p3/活動詳細頁2.png" alt="portfolio-img" class="portfolio-item">
+                            <div class="grid-info">
+                                <div class="grid-link d-flex justify-content-center">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/活動詳細頁2.png" title="活動詳細頁2">
+                                        <span class="lnr lnr-move"></span>
+                                    </a>
+
+                                </div>
+                                <div class="grid-title">
+                                    <h4>活動詳細頁2</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="grid-item activities">
+                        <div class="grid-item-wrapper">
+                            <img src="img/p3/票夾.png" alt="portfolio-img" class="portfolio-item">
+                            <div class="grid-info">
+                                <div class="grid-link d-flex justify-content-center">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/票夾.png" title="票夾">
+                                        <span class="lnr lnr-move"></span>
+                                    </a>
+
+                                </div>
+                                <div class="grid-title">
+                                    <h4>票夾</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="grid-item activities">
+                        <div class="grid-item-wrapper">
+                            <img src="img/p3/入場票證.png" alt="portfolio-img" class="portfolio-item">
+                            <div class="grid-info">
+                                <div class="grid-link d-flex justify-content-center">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/入場票證.png" title="入場票證">
+                                        <span class="lnr lnr-move"></span>
+                                    </a>
+
+                                </div>
+                                <div class="grid-title">
+                                    <h4>入場票證</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
                     <div class="grid-item member">
                         <div class="grid-item-wrapper">
-                            <img src="img/p1/會員資料.png" alt="portfolio-img" class="portfolio-item">
+                            <img src="img/p3/登入.png" alt="portfolio-img" class="portfolio-item">
                             <div class="grid-info">
                                 <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/會員資料.png" title="會員資料">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/登入.png" title="登入">
                                         <span class="lnr lnr-move"></span>
                                     </a>
 
                                 </div>
                                 <div class="grid-title">
-                                    <h4>會員資料</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="grid-item member">
-                        <div class="grid-item-wrapper">
-                            <img src="img/p1/點數管理_兌換.png" alt="portfolio-img" class="portfolio-item">
-                            <div class="grid-info">
-                                <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/點數管理_兌換.png" title="點數管理_兌換">
-                                        <span class="lnr lnr-move"></span>
-                                    </a>
-
-                                </div>
-                                <div class="grid-title">
-                                    <h4>點數管理_兌換</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="grid-item member">
-                        <div class="grid-item-wrapper">
-                            <img src="img/p1/點數管理_歷史.png" alt="portfolio-img" class="portfolio-item">
-                            <div class="grid-info">
-                                <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/點數管理_歷史.png" title="點數管理_歷史">
-                                        <span class="lnr lnr-move"></span>
-                                    </a>
-
-                                </div>
-                                <div class="grid-title">
-                                    <h4>點數管理_歷史</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="grid-item member">
-                        <div class="grid-item-wrapper">
-                            <img src="img/p1/點數管理_詳情.png" alt="portfolio-img" class="portfolio-item">
-                            <div class="grid-info">
-                                <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/點數管理_詳情.png" title="點數管理_詳情">
-                                        <span class="lnr lnr-move"></span>
-                                    </a>
-
-                                </div>
-                                <div class="grid-title">
-                                    <h4>點數管理_詳情</h4>
+                                    <h4>登入</h4>
                                 </div>
                             </div>
 
@@ -321,33 +326,16 @@
                     </div>
                     <div class="grid-item member">
                         <div class="grid-item-wrapper">
-                            <img src="img/p1/評價查看.png" alt="portfolio-img" class="portfolio-item">
+                            <img src="img/p3/個人設定.png" alt="portfolio-img" class="portfolio-item">
                             <div class="grid-info">
                                 <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/評價查看.png" title="評價查看">
+                                    <a class="img-pop" data-rel="lightcase" href="img/p3/個人設定.png" title="個人設定">
                                         <span class="lnr lnr-move"></span>
                                     </a>
 
                                 </div>
                                 <div class="grid-title">
-                                    <h4>評價查看</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="grid-item member">
-                        <div class="grid-item-wrapper">
-                            <img src="img/p1/聊天室.png" alt="portfolio-img" class="portfolio-item">
-                            <div class="grid-info">
-                                <div class="grid-link d-flex justify-content-center">
-                                    <a class="img-pop" data-rel="lightcase" href="img/p1/聊天室.png" title="聊天室">
-                                        <span class="lnr lnr-move"></span>
-                                    </a>
-
-                                </div>
-                                <div class="grid-title">
-                                    <h4>聊天室</h4>
+                                    <h4>個人設定</h4>
                                 </div>
                             </div>
 
