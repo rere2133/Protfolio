@@ -46,16 +46,18 @@
 .custom-btn:hover {
   color: #ffc200;
 }
-.custom-btn.custom-btn-bg {
-  /* background: #474559; */
-  /* color: #ffffff; */
-}
+/* .custom-btn.custom-btn-bg {
+  background: #474559;
+  color: #ffffff;
+} */
 .custom-btn.custom-btn-bg:hover {
   background-color: #333399;
   border-color: #333399;
   color: #fff;
 }
-.custom-btn-shadow: -5px 8px 20px 0px rgba(#222, 0.15);
+.custom-btn-shadow{
+  box-shadow: -5px 8px 20px 0px rgba(#222, 0.15);
+}
 /* animated start */
 .animated {
   position: relative;

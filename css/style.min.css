@@ -8,10 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
-  /* display: none; */
-}
-
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -882,7 +878,7 @@ section {
 }
 
 .blog-share-wrapper {
-  float: right;
+  /* float: right; */
   display: inline-block;
   margin: 0 -5px;
 }
