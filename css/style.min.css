@@ -641,6 +641,11 @@ section {
   font-size: 20px;
   color: #000;
 }
+.work-link a {
+  margin: 5px;
+  font-size: 20px;
+  color: #000 !important;
+}
 
 .grid-portfolio {
   overflow: hidden;
@@ -708,7 +713,12 @@ section {
 .work-holder:hover .work-info {
   top: 50%;
   opacity: 1;
-  color: #222;
+  color: #222 !important;
+}
+@media (max-width: 767px) {
+  .work-item-wrapper .work-link {
+    opacity: 0;
+  }
 }
 
 /*=====  End of PORTFOLIO  ======*/
