@@ -23,6 +23,9 @@
 .navbar[class*="-pinned"] {
   transform: translate(0, 0);
 }
+/* .navbar[class*="headroom--top"] {
+  background: transparent !important;
+} */
 .navbar[class*="headroom--not-top"] {
   border-bottom: 1px solid #f0f0f0;
   padding-top: 0;
@@ -55,7 +58,7 @@
   border-color: #333399;
   color: #fff;
 }
-.custom-btn-shadow{
+.custom-btn-shadow {
   box-shadow: -5px 8px 20px 0px rgba(#222, 0.15);
 }
 /* animated start */

@@ -44,6 +44,69 @@
       e.preventDefault();
     });
   });
+  $(document).ready(function() {
+    var navbar = $('.navbar');
+    var navbarCollapse = navbar.find('.navbar-collapse');
+  
+    $(document).on('show.bs.collapse', '.navbar-collapse', function() {
+      var headroomTop = navbar.closest('.headroom--top');
+      if (headroomTop.length > 0) {
+        navbar.css('background-color', '#2228');
+      }
+    });
+  
+    $(document).on('hide.bs.collapse', '.navbar-collapse', function() {
+      var headroomTop = navbar.closest('.headroom--top');
+      if (headroomTop.length > 0) {
+        navbar.css('background-color', 'transparent');
+      }else{
+        navbar.css('background-color', '#fff');
+      }
+    });
+  
+    $(document).on('DOMNodeInserted DOMNodeRemoved', function(event) {
+      if ($(event.target).closest('headroom--top')) {
+        navbar.css('background-color', 'transparent');
+      } else if ($(event.target).closest('headroom--not-top')) {
+        navbar.css('background-color', '#fff');
+      }
+    });
+  });
+  $(document).ready(function() {
+    var navbar = $('.navbar');
+    var navbarCollapse = navbar.find('.navbar-collapse');
+  
+    $(window).on('scroll', function() {
+      var siblingsCollapseShow = navbarCollapse.closest('.show');
+      if ($(window).scrollTop() === 0) {
+        navbar.css('background-color', 'transparent');
+      } else {
+        navbar.css('background-color', '#fff');
+      }
+      if (siblingsCollapseShow.length > 0) {
+        navbarCollapse.removeClass('show');
+      }
+    });
 
+    // var navbar = $('.navbar');
+    // var navbarCollapse = navbar.find('.navbar-collapse');
+  
+    // $(window).on('scroll', function() {
+    //   var siblingsTop = navbar.closest('.headroom--top');
+    //   var siblingsNotTop = navbar.closest('.headroom--not-top');
+    //   var siblingsCollapseShow = navbarCollapse.closest('.show');
+  
+    //   if (siblingsTop.length > 0) {
+    //     navbar.css('background-color', 'transparent');
+    //   } else if (siblingsNotTop.length > 0) {
+    //     navbar.css('background-color', '#fff');
+    //   }
+  
+    //   if (siblingsCollapseShow.length > 0) {
+    //     navbarCollapse.removeClass('show');
+    //   }
+    // });
+  });
+  
 
 })(jQuery);
