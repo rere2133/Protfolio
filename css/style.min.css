@@ -789,7 +789,8 @@ section {
 .skill-item .text-muted {
   color: #939393;
 }
-.skill-tag-1,.skill-tag-2{
+.skill-tag-1,
+.skill-tag-2 {
   padding: 6px 12px;
   border: 2px solid #2c65f4;
   color: #2c65f4;
@@ -797,10 +798,9 @@ section {
   letter-spacing: 1px;
   margin-bottom: 8px;
 }
-.skill-tag-2{
+.skill-tag-2 {
   border-color: #03c6fc;
   color: #03c6fc;
-
 }
 
 .progress-bar,
@@ -938,6 +938,13 @@ section {
 
 /*=====  End of CLIENT  ======*/
 
+/*====================================
+=            FORM FOOTER            =
+====================================*/
+.mastfoot {
+  border-top: 1px solid #eee;
+}
+/*=====  End of FOOTER  ======*/
 
 /*==================================
 =            RESPONSIVE            =
