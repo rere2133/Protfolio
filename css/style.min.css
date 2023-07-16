@@ -665,7 +665,8 @@ section {
   opacity: 1;
 }
 
-.grid-item-wrapper:before {
+.grid-item-wrapper:before,
+.work-item-wrapper:before {
   content: "";
   display: block;
   background: rgba(255, 255, 255, 0.7);
@@ -678,11 +679,13 @@ section {
   opacity: 0;
 }
 
-.grid-item-wrapper:hover:before {
+.grid-item-wrapper:hover:before,
+.work-item-wrapper:hover:before {
   opacity: 1;
 }
 
-.grid-info {
+.grid-info,
+.work-info {
   position: absolute;
   top: 0;
   left: 50%;
@@ -698,6 +701,14 @@ section {
 
 .grid-title {
   text-align: center;
+}
+.word-holder {
+  /* display: block; */
+}
+.work-holder:hover .work-info {
+  top: 50%;
+  opacity: 1;
+  color: #222;
 }
 
 /*=====  End of PORTFOLIO  ======*/

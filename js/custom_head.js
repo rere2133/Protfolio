@@ -64,13 +64,6 @@
       }
     });
   
-    $(document).on('DOMNodeInserted DOMNodeRemoved', function(event) {
-      if ($(event.target).closest('headroom--top')) {
-        navbar.css('background-color', 'transparent');
-      } else if ($(event.target).closest('headroom--not-top')) {
-        navbar.css('background-color', '#fff');
-      }
-    });
   });
   $(document).ready(function() {
     var navbar = $('.navbar');
