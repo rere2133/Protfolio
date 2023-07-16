@@ -664,7 +664,7 @@ section {
 .grid-item {
   margin-bottom: 20px;
   border-radius: 5px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .grid-item:hover .grid-info {
   top: 50%;

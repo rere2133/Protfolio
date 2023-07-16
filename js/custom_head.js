@@ -130,4 +130,4 @@ function enableScroll() {
 // disableScroll();
 
 // 若要允許滾動，調用 enableScroll() 函數
-enableScroll();
+// enableScroll();
