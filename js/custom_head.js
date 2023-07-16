@@ -39,7 +39,7 @@
   $(function () {
     $('.back-btn').on('click', function(e) {
       console.log('click back');
-      // e.preventDefault(); // 防止預設的按鈕行為（例如提交表單）
+      e.preventDefault(); // 防止預設的按鈕行為（例如提交表單）
       window.location.href = `./index.html${$(this).attr('href')}`;
       e.preventDefault();
     });
@@ -103,3 +103,31 @@
   
 
 })(jQuery);
+// 禁止瀏覽器滾動到除了body外的高度
+function disableScroll() {
+  // 獲取滾動事件的元素（一般為body）
+  var scrollElement = document.scrollingElement || document.documentElement;
+
+  // 獲取視窗的高度
+  var windowHeight = window.innerHeight;
+
+  // 設置元素的高度為視窗高度，禁止滾動
+  scrollElement.style.height = windowHeight + 'px';
+  scrollElement.style.overflow = 'hidden';
+}
+
+// 允許瀏覽器滾動
+function enableScroll() {
+  // 獲取滾動事件的元素（一般為body）
+  var scrollElement = document.scrollingElement || document.documentElement;
+
+  // 還原元素的高度和滾動屬性
+  scrollElement.style.height = '';
+  scrollElement.style.overflow = '';
+}
+
+// 禁止滾動
+// disableScroll();
+
+// 若要允許滾動，調用 enableScroll() 函數
+enableScroll();
