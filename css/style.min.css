@@ -672,7 +672,7 @@ section {
 }
 
 .grid-portfolio {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .gutter-sizer {
