@@ -104,12 +104,12 @@ section {
   color: #fff;
   transition: 0.3s ease;
 }
-.link-bg{
+.link-bg {
   position: relative;
   z-index: 1;
   margin-bottom: 8px;
 }
-.link-bg::before{
+.link-bg::before {
   content: "";
   position: absolute;
   width: 40px;
@@ -120,12 +120,11 @@ section {
   transform: translateX(-50%);
   background: #fff;
   border-radius: 50px;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   border: 1px solid #eee;
 }
-.link-bg:hover::before{
+.link-bg:hover::before {
   background: #eee;
-
 }
 
 .navbar-nav:hover li a {
@@ -673,6 +672,13 @@ section {
 
 .grid-portfolio {
   overflow: hidden;
+}
+
+.portfolio-item {
+  height: 100%;
+}
+.grid-item-wrapper {
+  height: 100%;
 }
 
 .gutter-sizer {
